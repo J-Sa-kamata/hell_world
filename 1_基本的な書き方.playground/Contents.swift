@@ -44,7 +44,7 @@ print(STR_3+STR_VALUE_3+","+STR_4) //数字型のままではエラーになる
 var STR_5 = STR_3+STR_VALUE_3+","+"ライオン\(VALUE_4)"  //STR_5の文字列型に格納する事で変換（数字→文字）をする
 //var STR_5 = STR_3+STR_VALUE_3+","+STR_4+VALUE_4   //エラーになるパターン
 print(STR_5)
-
+//以下定数の範囲
 var VALUE_5:Int = Int.min
 var VALUE_6:Int = Int.max
 var VALUE_7:Int8 = Int8.min
